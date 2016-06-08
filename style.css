@@ -1,0 +1,53 @@
+
+
+body {
+	/*general page font*/
+    margin-top: 300px;
+    padding: 5%;
+    background: url("http://1.bp.blogspot.com/-G6UpaeN5zD4/UlDPiWnaCMI/AAAAAAAACp4/DwLusQcq4Fo/s1600/3D_Animation_Galaxy__Quasar__rotating_hd1080.gif");
+    /*alternative backgrounds.
+ /*background: url('http://i.imgur.com/sUGW929.jpg');*/
+    /*background: url('http://www.ancient-code.com/wp-content/uploads/2015/01/1653131-1.jpg');*/
+    font-family: "futura";
+    font-size: 25px;
+    font-color: black;
+}
+
+div{	
+	/*text-align: center;*/
+
+}
+/*Changes the size of the input field for weight.*/
+#myWeight{
+	margin:0 25%;
+	width:50%;
+
+}
+/*Changes the size of the drop-down menu featuring planets*/
+#myPlanet{
+	margin:0 25%;
+	width:50%;
+
+
+}
+/*Button styles.*/
+.button {
+    background-color: #009999;
+    /*teal*/
+    padding: 15px 32px 18px 30px;
+    margin: 0.25%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "futura";
+    transition-duration: .7s;
+}
+
+.button:hover {
+    background-color: #ffff66;
+    /*light gold*/
+}
+
+
+

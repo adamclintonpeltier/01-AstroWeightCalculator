@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!-- bootstrap initialization -->
+<head>
+    <title>AstroWeightCalculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <form>
+        <!-- Input field for weight-->
+            <fieldset> 
+                <div class="form-group">
+                    <label for="How Much Do You Weigh?">How Much Do You Weigh?</label>
+                    <input type="text" id="myWeight" class="form-control" placeholder="Weight in Pounds"></input>
+                </div><!-- 
+        Drop-down menus to select a planet -->
+                <div class="form-group">
+                    <label for="myplanet">Choose A Heavenly Body</label>
+                    <select id="myPlanet" class="form-control">
+                        <option>Choose A Heavenly Body</option>
+                        <option value="26.9">Sun</option>
+                        <option value="0.377">Mercury</option>
+                        <option value="0.9032">Venus</option>
+                        <option value="1">Earth</option>
+                        <option value="0.1655">Moon</option>
+                        <option value="0.3895">Mars</option>
+                        <option value="2.640">Jupiter</option>
+                        <option value="1.139">Saturn</option>
+                        <option value="0.917">Uranus</option>
+                        <option value="1.148">Neptune</option>
+                        <option value="0.06">Pluto</option>
+                    </select>
+                </div>
+                
+            </fieldset>
+        </form>
+    </div>
+    <!-- "Weigh Me There! Button -->"
+    <p align="center">
+        <button type="button" onclick="calculator()" class="button">
+            Weigh Me There!</button>
+        <p align="center" id="result">
+        </p>
+        <script src="index.js"></script>
+</body>
+
+</html>
